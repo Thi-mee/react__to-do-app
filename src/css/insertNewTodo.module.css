@@ -1,0 +1,35 @@
+.NewSpace {
+  background-color: #333;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 1em;
+  overflow: hidden;
+  margin-bottom: 2em;
+}
+.NewSpace input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  font-size: 1.4rem;
+  resize: none;
+  color: #eee;
+  padding: .6em .5em;
+  outline: 1px solid yellow;
+  overflow-y: none;
+  flex: 1 1 80%;
+  caret-color: var(--bgcolor);
+}
+.NewSpace button {
+  padding: .75em;
+  flex: 1 1 20%;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: 0;
+  cursor: pointer;
+
+  background-color: yellow;
+}
+.NewSpace button:hover{
+
+  background-color: rgb(190, 190, 14);
+}

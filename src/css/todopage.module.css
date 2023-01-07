@@ -1,0 +1,16 @@
+.tooodo{
+  height: 100%;
+  display: flex;
+}
+
+.tooodo aside{
+  width: var(--sidebar-width);
+  color: rgb(182, 103, 103);
+}
+
+.tooodo .Main{
+  width: calc(100% - var(--sidebar-width));
+  padding: 3em;
+}
+/* .tooodo */
+
